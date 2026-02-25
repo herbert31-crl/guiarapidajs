@@ -1,9 +1,9 @@
-// Mensaje de bienvenida
+// pa dar vienvenida
 function saludar(){
     alert("Bienvenido a la Guía Rápida de JavaScript 🚀");
 }
 
-// Ejemplo interactivo
+// un ejemplo
 function verificarEdad(){
     let edad = prompt("Ingresa tu edad:");
 
@@ -14,9 +14,10 @@ function verificarEdad(){
     }
 }
 
-// Mostrar fecha actual
+// la fecha
 function mostrarFecha(){
     let fecha = new Date();
     document.getElementById("fecha").innerHTML =
         "Fecha actual: " + fecha.toLocaleDateString();
+
 }
